@@ -2,6 +2,25 @@ import numpy as np
 from scipy.fftpack import fft
 import statsmodels.api as sm
 
+def p2m_waterice(x):
+    ### For a radar depth profile with x = list of depths in pixels and y = list of radar power
+    ### Takes in x
+    ### Converts pixels to depth in meters
+    ### returns x_m, now in meters
+    ### Assumes dielectric of 3.15 for water ice
+    x = np.array(x)
+    x = x.astype(np.float)
+    
+    #convert pixels to meters
+    c = 300000000
+    pix_t = .0000000375
+    er = 0.56343616981 # 1/sqrt(3.15) (dielectric = 3.15 for water ice)
+    depthh = c*pix_t*er*len(x)*.5 
+    x_m = (x-x[0])*c*pix_t*er*.5
+    
+    return x_m
+
+
 
 def fft_radar(depth,values):
     ### takes two nx1 matrices, depth and values
