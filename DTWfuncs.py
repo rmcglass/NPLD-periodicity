@@ -28,8 +28,10 @@ def dtw_mars(y,x):
         for m in range(M): #loop through x's
             d[n,m]=(y[n]-x[m])**2
     
-    #if you want to constrain the age, set the last row? column? to zeros. I'm not sure which, ask Mike
-    #I think it's both
+    #If we assume that the surface return of both depth profiles corresponds to the same age -- roughly the present,
+    # but we don't know if the bottoms are the same, then we will set the last row and column to be zeros. 
+    # That way, it allows for the best path to end before (N,M) if necessary.  
+    
     zero_col = np.zeros((d.shape[0], 1))  # zeros column as 2D array
     d = np.hstack((d, zero_col))
     zero_row = np.zeros((1,d.shape[1]))
@@ -43,7 +45,7 @@ def dtw_mars(y,x):
     # We want to know the path from element (0,0) to element (N,M) that involves
     # the least total cost.  This begins by setting the first element at (0,0)
     # equal to the first element from d, because this is simply the starting
-    # point.  
+    # point (under the assumption that the starting signals are from roughyly the same time).  
     
     D=np.zeros(d.shape)
     D[0,0]=d[0,0]
@@ -67,6 +69,28 @@ def dtw_mars(y,x):
     
     
     #TRAVERSE COST MATRIX TO FIND PATH OF LEAST COST
+    # Construct W, a matrix of 2 columns which contains the optimal path from (0,0) to (N,M). 
+    # Each row in W is a set of coordinates that the path follows.
+    
+    n=N-1
+    m=M-1
+    
+    W = [[n,m]]
+    
+    while n+m > 0:
+        steps = [D[n-1,m], D[n-1,m-1], D[n,m-1]]
+        if n == 0:
+            m = m-1
+        elif m == 0:
+            n = n-1
+        elif steps.index(min(steps)) == 0:
+            n = n-1
+        elif steps.index(min(steps)) == 1:
+            n = n-1
+            m = m-1
+        elif steps.index(min(steps)) == 2:
+            m = m-1
+        W = np.vstack((W, [n,m])) 
     
     #calculate statistics
     
