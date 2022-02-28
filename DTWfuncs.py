@@ -34,9 +34,9 @@ def dtw_mars(y,x):
     d = np.hstack((d, zero_col))
     zero_row = np.zeros((1,d.shape[1]))
     d = np.vstack((d, zero_row))
-   
-    print(d)
-    print(d.shape)
+    
+    N = d.shape[0]
+    M = d.shape[1]
     
     #COMPUTE COST MATRIX, D
     
@@ -66,8 +66,7 @@ def dtw_mars(y,x):
             D[n,m] = d[n,m]+ min(g*D[n-1,m], D[n-1,m-1], g*D[n,m-1])
     
     
-    
-    #traverse cost matrix to find path of least cost
+    #TRAVERSE COST MATRIX TO FIND PATH OF LEAST COST
     
     #calculate statistics
     
