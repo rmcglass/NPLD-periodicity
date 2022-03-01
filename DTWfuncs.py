@@ -36,7 +36,7 @@ def normPH(idata):
     
     return odata
 
-def xcPH(y1, y2, XCtype=0)
+def xcPH(y1, y2, XCtype=0):
     # %This function computes the cross correlation (r^2) at zero lag for
     # %two input records.  Records should be sampled at the same 
     # %unifrom intervals.
@@ -170,18 +170,20 @@ def dtw_mars(y,x):
     
     #calculate statistics
     
-    xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty)
-    XC = xcPH(xtune,y,1)
+    xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty) #interpolate the values of the tuned x record at the times for y  
+    XC = xcPH(xtune,y,1)                        # cross-correlation between the tuned x record and the y record
+    tstd = np.std(ty[W[:,0]] - tx[W[:,1]])      # standard dev of the difference between times along the min cost path
+    dt = interpPH(ty[W[:,0]],ty[W[:,0]] - tx[W[:,1]],ty); # differences between times along the min cost path, interpolated at the times for y
     
+    return xtune, XC, tstd, dt, W
     
-    
-y=[6,3,2]
-x=[5,1,2,4]
+# y=[6,3,2]
+# x=[5,1,2,4]
         
-#dtw_mars(y,x)
-tx1 = [0,1,2,3]
-x = [5,1,2,4]
-tx = np.linspace(min(tx1),max(tx1),8)
-interpPH(tx1,x,tx)
+
+# tx1 = [0,1,2,3]
+# x = [5,1,2,4]
+# tx = np.linspace(min(tx1),max(tx1),8)
+
 
     
