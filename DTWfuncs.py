@@ -1,5 +1,30 @@
 import numpy as np
 
+def interpPH(x1, y1, x2):
+    ### based on Matlab code by Mike Sori
+    ### By Riley McGlasson, February 2022
+    ### Interpolating in a rational way.
+    ### inputs must be row vectors
+    ### returns interpolated vector y2, with length = len(tx)
+    
+    if len(x1) != len(y1):
+        raise Exception("input vectors are not the same length")
+    y2 = np.zeros(len(tx))
+    
+    for i in range(len(x2)):
+        pl1 = np.where(x1 >= x2[i])[0]
+        if len(pl1)==0:
+            y2[i] = np.nan
+        else:
+            pl = pl1[0]
+        if x2[i] == x1[pl]:
+            y2[i] = y1[pl]
+        elif pl==0:
+            y2[i] = np.nan ##???
+        else:
+            y2[i]=(x2[i]-x1[pl-1])*(y1[pl]-y1[pl-1])/(x1[pl]-x1[pl-1])+y1[pl-1]
+    return y2
+    
 def dtw_mars(y,x):
     ### takes one radar depth profile (x) 
     ### and tunes it to another depth profile (y)
@@ -13,7 +38,16 @@ def dtw_mars(y,x):
     ### w is the optimal path
     ### y is the vector you are testing against
     ### x is the vector you are testing
-
+    
+    ty = np.arange(len(y))
+    tx1 = np.arange(len(x))
+    
+    tx = np.linspace(min(tx1),max(tx1),length(y))
+    x = interpPH(tx1,x,tx)
+    
+    x = normPH ###write normPH
+    x = normPH
+    
     N = len(y)
     M = len(x)
     x = np.array(x)
@@ -35,6 +69,7 @@ def dtw_mars(y,x):
     zero_col = np.zeros((d.shape[0], 1))  # zeros column as 2D array
     d = np.hstack((d, zero_col))
     zero_row = np.zeros((1,d.shape[1]))
+    d = np.vstack((d, zero_row))
     d = np.vstack((d, zero_row))
     
     N = d.shape[0]
@@ -67,7 +102,7 @@ def dtw_mars(y,x):
         for m in range(1,M):
             D[n,m] = d[n,m]+ min(g*D[n-1,m], D[n-1,m-1], g*D[n,m-1])
     
-    
+    print(D)
     #TRAVERSE COST MATRIX TO FIND PATH OF LEAST COST
     # Construct W, a matrix of 2 columns which contains the optimal path from (0,0) to (N,M). 
     # Each row in W is a set of coordinates that the path follows.
@@ -94,10 +129,16 @@ def dtw_mars(y,x):
     
     #calculate statistics
     
+    
+    
+    
 y=[6,3,2]
 x=[5,1,2,4]
         
-dtw_mars(y,x)
-    
+#dtw_mars(y,x)
+tx1 = [0,1,2,3]
+x = [5,1,2,4]
+tx = np.linspace(min(tx1),max(tx1),8)
+interpPH(tx1,x,tx)
     
     
