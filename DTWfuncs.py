@@ -5,7 +5,7 @@ def interpPH(x1, y1, x2):
     ### By Riley McGlasson, February 2022
     ### Interpolating in a rational way.
     ### inputs must be row vectors
-    ### returns interpolated vector y2, with length = len(tx)
+    ### returns interpolated vector y2, with length = len(x2)
     
     if len(x1) != len(y1):
         raise Exception("input vectors are not the same length")
@@ -35,6 +35,36 @@ def normPH(idata):
     odata = odata/np.nanstd(odata)
     
     return odata
+
+def xcPH(y1, y2, XCtype=0)
+    # %This function computes the cross correlation (r^2) at zero lag for
+    # %two input records.  Records should be sampled at the same 
+    # %unifrom intervals.
+    # %
+    # %records y1 and y2, default is r^2, but if XCtype==1 then returns r.
+    # %
+    # %function [XC]=xcPH(y1,y2,type,demean);
+    # %
+    # %y1:     1st record 
+    # %y2:     2nd record
+    # %type:   0=squared cross-correlation, 1=cross-correlation       (default=0)
+    
+    pl1 = np.where(np.isnan(y1)==0)
+    pl2 = np.where(np.isnan(y2)==0)
+    y1 = y1[pl1]
+    y2 = y2[pl2]
+    
+    #demean
+    y1=y1-np.mean(y1)
+    y2=y2-np.mean(y2)
+    
+    XC = np.sum(np.multiply(y1,y2))/sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2)))
+    
+    if XCtype!=1:
+        XC=XC**2
+    
+    return XC
+    
     
 def dtw_mars(y,x):
     ### takes one radar depth profile (x) 
@@ -140,7 +170,8 @@ def dtw_mars(y,x):
     
     #calculate statistics
     
-    xtune = interpPH(ty[W[:,0]], x[W[0,1]], ty) ##look into how this works better
+    xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty)
+    XC = xcPH(xtune,y,1)
     
     
     
@@ -152,8 +183,5 @@ tx1 = [0,1,2,3]
 x = [5,1,2,4]
 tx = np.linspace(min(tx1),max(tx1),8)
 interpPH(tx1,x,tx)
-normx = normPH(x)
-print(np.mean(normx))
-print(np.std(normx))
-print(normx)
+
     
