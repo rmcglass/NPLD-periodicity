@@ -24,6 +24,17 @@ def interpPH(x1, y1, x2):
         else:
             y2[i]=(x2[i]-x1[pl-1])*(y1[pl]-y1[pl-1])/(x1[pl]-x1[pl-1])+y1[pl-1]
     return y2
+
+
+def normPH(idata):
+    ### demeans and normalizes a given input function to unit std.
+    ### Written by Riley McGlasson, February 2022
+    ### Based on Matlab code by Mike Sori
+    
+    odata = idata - np.nanmean(idata)
+    odata = odata/np.nanstd(odata)
+    
+    return odata
     
 def dtw_mars(y,x):
     ### takes one radar depth profile (x) 
@@ -45,8 +56,8 @@ def dtw_mars(y,x):
     tx = np.linspace(min(tx1),max(tx1),length(y))
     x = interpPH(tx1,x,tx)
     
-    x = normPH ###write normPH
-    x = normPH
+    x = normPH(x)
+    y = normPH(y)
     
     N = len(y)
     M = len(x)
@@ -129,6 +140,7 @@ def dtw_mars(y,x):
     
     #calculate statistics
     
+    xtune = interpPH(ty[W[:,0]], x[W[0,1]], ty) ##look into how this works better
     
     
     
@@ -140,5 +152,8 @@ tx1 = [0,1,2,3]
 x = [5,1,2,4]
 tx = np.linspace(min(tx1),max(tx1),8)
 interpPH(tx1,x,tx)
-    
+normx = normPH(x)
+print(np.mean(normx))
+print(np.std(normx))
+print(normx)
     
