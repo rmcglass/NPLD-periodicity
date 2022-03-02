@@ -49,8 +49,8 @@ def xcPH(y1, y2, XCtype=0):
     # %y2:     2nd record
     # %type:   0=squared cross-correlation, 1=cross-correlation       (default=0)
     
-    pl1 = np.where(np.isnan(y1)==0)
-    pl2 = np.where(np.isnan(y2)==0)
+    pl1 = np.where(np.isnan(y1)==False)
+    pl2 = np.where(np.isnan(y2)==False)
     y1 = y1[pl1]
     y2 = y2[pl2]
     
@@ -58,11 +58,11 @@ def xcPH(y1, y2, XCtype=0):
     y1=y1-np.mean(y1)
     y2=y2-np.mean(y2)
     
-    #XC = np.sum(np.multiply(y1,y2))/(np.sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2))))
+    XC = np.sum(np.multiply(y1,y2))/(np.sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2))))
     
     if XCtype!=1:
         XC=XC**2
-    XC=1
+
     return XC
     
     
