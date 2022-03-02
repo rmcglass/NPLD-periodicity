@@ -9,7 +9,7 @@ def interpPH(x1, y1, x2):
     
     if len(x1) != len(y1):
         raise Exception("input vectors are not the same length")
-    y2 = np.zeros(len(tx))
+    y2 = np.zeros(len(x2))
     
     for i in range(len(x2)):
         pl1 = np.where(x1 >= x2[i])[0]
@@ -58,11 +58,11 @@ def xcPH(y1, y2, XCtype=0):
     y1=y1-np.mean(y1)
     y2=y2-np.mean(y2)
     
-    XC = np.sum(np.multiply(y1,y2))/sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2)))
+    #XC = np.sum(np.multiply(y1,y2))/(np.sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2))))
     
     if XCtype!=1:
         XC=XC**2
-    
+    XC=1
     return XC
     
     
@@ -83,7 +83,7 @@ def dtw_mars(y,x):
     ty = np.arange(len(y))
     tx1 = np.arange(len(x))
     
-    tx = np.linspace(min(tx1),max(tx1),length(y))
+    tx = np.linspace(min(tx1),max(tx1),len(y))
     x = interpPH(tx1,x,tx)
     
     x = normPH(x)
@@ -95,7 +95,9 @@ def dtw_mars(y,x):
     y = np.array(y)
     
     # g sets punishment multiplier for going off diagonal in the cost matrix
-    g = 1
+    g = 2
+    
+
     
     #compute d, a matrix of the squared differences between every value of x and y
     d = np.zeros((N,M))
@@ -107,15 +109,16 @@ def dtw_mars(y,x):
     # but we don't know if the bottoms are the same, then we will set the last row and column to be zeros. 
     # That way, it allows for the best path to end before (N,M) if necessary.  
     
-    zero_col = np.zeros((d.shape[0], 1))  # zeros column as 2D array
-    d = np.hstack((d, zero_col))
-    zero_row = np.zeros((1,d.shape[1]))
-    d = np.vstack((d, zero_row))
-    d = np.vstack((d, zero_row))
+#     zero_col = np.zeros((d.shape[0], 1))  # zeros column as 2D array
+#     d = np.hstack((d, zero_col))
+#     zero_row = np.zeros((1,d.shape[1]))
+#     d = np.vstack((d, zero_row))
     
     N = d.shape[0]
     M = d.shape[1]
     
+    d[-1,:]=0
+    d[:,-1]=0
     #COMPUTE COST MATRIX, D
     
     # We want to know the path from element (0,0) to element (N,M) that involves
@@ -141,9 +144,9 @@ def dtw_mars(y,x):
     
     for n in range(1,N):
         for m in range(1,M):
-            D[n,m] = d[n,m]+ min(g*D[n-1,m], D[n-1,m-1], g*D[n,m-1])
+            D[n,m] = d[n,m]+ min(D[n-1,m-1], g*D[n-1,m], g*D[n,m-1])
     
-    print(D)
+    
     #TRAVERSE COST MATRIX TO FIND PATH OF LEAST COST
     # Construct W, a matrix of 2 columns which contains the optimal path from (0,0) to (N,M). 
     # Each row in W is a set of coordinates that the path follows.
@@ -154,36 +157,37 @@ def dtw_mars(y,x):
     W = [[n,m]]
     
     while n+m > 0:
-        steps = [D[n-1,m], D[n-1,m-1], D[n,m-1]]
+        steps = [D[n-1,m-1], D[n-1,m], D[n,m-1]]
         if n == 0:
             m = m-1
         elif m == 0:
             n = n-1
         elif steps.index(min(steps)) == 0:
             n = n-1
+            m = m-1
         elif steps.index(min(steps)) == 1:
             n = n-1
-            m = m-1
         elif steps.index(min(steps)) == 2:
             m = m-1
         W = np.vstack((W, [n,m])) 
     
     #calculate statistics
-    
+    #ty = np.arange(N)
     xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty) #interpolate the values of the tuned x record at the times for y  
     XC = xcPH(xtune,y,1)                        # cross-correlation between the tuned x record and the y record
     tstd = np.std(ty[W[:,0]] - tx[W[:,1]])      # standard dev of the difference between times along the min cost path
     dt = interpPH(ty[W[:,0]],ty[W[:,0]] - tx[W[:,1]],ty); # differences between times along the min cost path, interpolated at the times for y
+
     
-    return xtune, XC, tstd, dt, W
+    return xtune, XC, tstd, dt, W, D
     
 # y=[6,3,2]
-# x=[5,1,2,4]
-        
+#x=[5,1,2,4]
+#x2=[5,1,2,4]        
 
 # tx1 = [0,1,2,3]
 # x = [5,1,2,4]
 # tx = np.linspace(min(tx1),max(tx1),8)
-
+#dtw_mars(x,x2)
 
     
