@@ -11,8 +11,12 @@ def interpPH(x1, y1, x2):
         raise Exception("input vectors are not the same length")
     y2 = np.zeros(len(x2))
     
+    #print(x1)
+    #print(x2)
+    
     for i in range(len(x2)):
         pl1 = np.where(x1 >= x2[i])[0]
+        #print(pl1)
         if len(pl1)==0:
             y2[i] = np.nan
         else:
@@ -82,10 +86,9 @@ def dtw_mars(y,x):
     
     ty = np.arange(len(y))
     tx1 = np.arange(len(x))
-    
     tx = np.linspace(min(tx1),max(tx1),len(y))
-    x = interpPH(tx1,x,tx)
-    
+    #x = interpPH(tx1,x,tx)
+    x = np.interp(tx, tx1, x)
     x = normPH(x)
     y = normPH(y)
     
@@ -96,8 +99,6 @@ def dtw_mars(y,x):
     
     # g sets punishment multiplier for going off diagonal in the cost matrix
     g = 2
-    
-
     
     #compute d, a matrix of the squared differences between every value of x and y
     d = np.zeros((N,M))
@@ -173,13 +174,24 @@ def dtw_mars(y,x):
     
     #calculate statistics
     #ty = np.arange(N)
-    xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty) #interpolate the values of the tuned x record at the times for y  
-    XC = xcPH(xtune,y,1)                        # cross-correlation between the tuned x record and the y record
-    tstd = np.std(ty[W[:,0]] - tx[W[:,1]])      # standard dev of the difference between times along the min cost path
-    dt = interpPH(ty[W[:,0]],ty[W[:,0]] - tx[W[:,1]],ty); # differences between times along the min cost path, interpolated at the times for y
-
+    #print(ty)
+    #xtune = interpPH(ty[W[:,0]], x[W[:,1]], ty) #interpolate the values of the tuned x record at the times for y  
+    #print(W)
+    #print(tx[W[:,0]])
+    #print(x)
+    t = np.flip(tx[W[:,0]])
+    f = np.flip(x[W[:,1]])
+    xtune = np.interp(ty, t, f)
+    #print(xtune)
     
-    return xtune, XC, tstd, dt, W, D
+    #XC = xcPH(xtune,y,1)                        # cross-correlation between the tuned x record and the y record
+    XC = np.corrcoef(xtune,y)[1,0]
+    tstd = np.std(ty[W[:,0]] - tx[W[:,1]])      # standard dev of the difference between times along the min cost path
+    #dt = interpPH(ty[W[:,0]],ty[W[:,0]] - tx[W[:,1]],ty); # differences between times along the min cost path, interpolated at the times for y
+    dt = np.interp(ty, ty[W[:,0]], ty[W[:,0]] - tx[W[:,1]])
+    
+    
+    return xtune, XC, tstd, dt, W, D, tx
     
 # y=[6,3,2]
 #x=[5,1,2,4]
