@@ -1,35 +1,5 @@
 import numpy as np
 
-def interpPH(x1, y1, x2):
-    ### based on Matlab code by Mike Sori
-    ### By Riley McGlasson, February 2022
-    ### Interpolating in a rational way.
-    ### inputs must be row vectors
-    ### returns interpolated vector y2, with length = len(x2)
-    
-    if len(x1) != len(y1):
-        raise Exception("input vectors are not the same length")
-    y2 = np.zeros(len(x2))
-    
-    #print(x1)
-    #print(x2)
-    
-    for i in range(len(x2)):
-        pl1 = np.where(x1 >= x2[i])[0]
-        #print(pl1)
-        if len(pl1)==0:
-            y2[i] = np.nan
-        else:
-            pl = pl1[0]
-        if x2[i] == x1[pl]:
-            y2[i] = y1[pl]
-        elif pl==0:
-            y2[i] = np.nan ##???
-        else:
-            y2[i]=(x2[i]-x1[pl-1])*(y1[pl]-y1[pl-1])/(x1[pl]-x1[pl-1])+y1[pl-1]
-    return y2
-
-
 def normPH(idata):
     ### demeans and normalizes a given input function to unit std.
     ### Written by Riley McGlasson, February 2022
@@ -39,35 +9,6 @@ def normPH(idata):
     odata = odata/np.nanstd(odata)
     
     return odata
-
-def xcPH(y1, y2, XCtype=0):
-    # %This function computes the cross correlation (r^2) at zero lag for
-    # %two input records.  Records should be sampled at the same 
-    # %unifrom intervals.
-    # %
-    # %records y1 and y2, default is r^2, but if XCtype==1 then returns r.
-    # %
-    # %function [XC]=xcPH(y1,y2,type,demean);
-    # %
-    # %y1:     1st record 
-    # %y2:     2nd record
-    # %type:   0=squared cross-correlation, 1=cross-correlation       (default=0)
-    
-    pl1 = np.where(np.isnan(y1)==False)
-    pl2 = np.where(np.isnan(y2)==False)
-    y1 = y1[pl1]
-    y2 = y2[pl2]
-    
-    #demean
-    y1=y1-np.mean(y1)
-    y2=y2-np.mean(y2)
-    
-    XC = np.sum(np.multiply(y1,y2))/(np.sqrt(np.sum(np.multiply(y1,y1))*np.sum(np.multiply(y2,y2))))
-    
-    if XCtype!=1:
-        XC=XC**2
-
-    return XC
     
     
 def dtw_mars(y,x):
