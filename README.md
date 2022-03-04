@@ -7,7 +7,7 @@
 ---
 
 ![NPLDlocations](https://user-images.githubusercontent.com/34108989/156832352-bbfc1187-7a5d-40b7-8892-044fdcb08997.png)![Korolevlocations](https://user-images.githubusercontent.com/34108989/156836781-d7c40b29-2bc3-4161-8865-e8c086517cbc.png)  
-Depth profile sites for NPLD (left) and Korolev crater (right).
+Depth profile sites for NPLD and Korolev crater.
 
 ---
 
