@@ -1,0 +1,340 @@
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_01zoom.csv: 0.27666792679857993
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.05803339313284303. 95% threshold:0.020712169424748808
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_02zoom.csv: 0.34319667820889527
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.027104823528623884. 95% threshold:0.11860181860626044
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_03zoom.csv: 0.509995540967382
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.1032011033361496. 95% threshold:0.28309966641674844
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_04zoom.csv: 0.4451228203983134
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.030688815676659133. 95% threshold:0.16311367872453264
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00325703_05zoom.csv: 0.30408159456473854
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.16693965702403493. 95% threshold:0.3095934779635616
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00325703_06zoom.csv: 0.03246197899868831
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.0536123345002369. 95% threshold:0.15249847627805566
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00325703_07zoom.csv: 0.21917750371482647
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.07697807760061878. 95% threshold:0.11777787236815157
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00480901_08zoom.csv: 0.6740883153879547
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.5065402165012054. 95% threshold:0.8509721755634791
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00480901_09zoom.csv: 0.1101384734356779
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.028387069124410934. 95% threshold:0.13057301423568227
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00480901_10zoom.csv: 0.1256029979755001
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.001727876714963788. 95% threshold:0.03915386248190509
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_11zoom.csv: 0.08216886775500222
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.11856487254497314. 95% threshold:0.23934815207802884
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_12zoom.csv: 0.17848359226144905
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.11650461762195047. 95% threshold:-0.08436062084581752
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_13zoom.csv: 0.03171728507190136
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.08474777021201615. 95% threshold:-0.06895657146778172
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_14zoom.csv: 0.20132609532208945
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.02287182446886397. 95% threshold:0.14981428694580484
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_15zoom.csv: 0.3372006921259658
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.04109358857515632. 95% threshold:0.07768831781104354
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_16zoom.csv: 0.05777758817429513
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.029421192642162752. 95% threshold:0.1107652769996576
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00266002_17zoom.csv: 0.3924767513337097
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.004632974407918581. 95% threshold:0.18224680933159743
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202201_18zoom.csv: 0.5405462616579552
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.003123013458913538. 95% threshold:0.2100397125862058
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202201_19zoom.csv: 0.358083760517907
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.12406070517827394. 95% threshold:0.31353959107831764
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202201_20zoom.csv: 0.5804926960926926
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.5504545045850484. 95% threshold:0.9437971670278511
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202201_21zoom.csv: 0.06889309434388263
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.03422897942296862. 95% threshold:0.023774900844995533
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202201_22zoom.csv: 0.3444375784317262
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.15060627829993256. 95% threshold:0.31698032414475347
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00471302_23zoom.csv: 0.6014779597319974
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.1966936067148984. 95% threshold:0.3679008971417906
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00471302_24zoom.csv: 0.4360028393126412
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.0362357921859819. 95% threshold:0.22825285760987934
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00471302_25zoom.csv: 0.020909633643770444
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.1387890565848971. 95% threshold:-0.0653535729153042
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00471302_26zoom.csv: 0.11707090898520917
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.14239200467167087. 95% threshold:0.3262038875394532
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00325703_27zoom.csv: 0.33633106394969076
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.11512394350948625. 95% threshold:0.08712707265003193
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00325703_28zoom.csv: 0.2603044099571129
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.13112997504862203. 95% threshold:0.06956916415554554
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_29zoom.csv: 0.8188131253374835
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.6862245821330843. 95% threshold:0.9569811351135662
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00429802_30zoom.csv: 0.23714110003053096
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.09824722793991188. 95% threshold:-0.07372764042867411
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202501_31zoom.csv: 0.48332558370869894
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.03763361281635582. 95% threshold:0.18946137410166106
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202501_32zoom.csv: 0.20943637416887123
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.10362853152925564. 95% threshold:-0.08061977570406385
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202501_33zoom.csv: 0.2572108852788593
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:-0.024730127907084606. 95% threshold:0.054634267221569416
+XC of korolev2/S_02186601_1zoom.csv and NPLD/S_00202501_34zoom.csv: 0.6012486226788561
+Avg XC of korolev2/S_02186601_1zoom.csv and 1000 random profiles:0.060933855371657734. 95% threshold:0.25332269358405796
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_01zoom.csv: 0.13639406629375367
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.06393666820481105. 95% threshold:-0.010116944607643119
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_02zoom.csv: 0.12580037083019482
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.11554668435628289. 95% threshold:0.27215453735308515
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_03zoom.csv: 0.6535509904335279
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.2741814049160528. 95% threshold:0.49194691971922844
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_04zoom.csv: 0.5469702819938287
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.17063641469815302. 95% threshold:0.3420986322757431
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00325703_05zoom.csv: 0.2312600667832902
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.24657174908390242. 95% threshold:0.42185272375699856
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00325703_06zoom.csv: 0.10617110297591306
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.10063525237139322. 95% threshold:0.3154025500202356
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00325703_07zoom.csv: 0.18349006667883982
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.08077311147395115. 95% threshold:0.2991875228945511
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00480901_08zoom.csv: 0.3881793383869262
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.5965891866622469. 95% threshold:0.7672247480635297
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00480901_09zoom.csv: 0.14439208759588149
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.15311217194382848. 95% threshold:0.2825308632471814
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00480901_10zoom.csv: 0.6530739844981354
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.2325416266691111. 95% threshold:0.4098011252206144
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_11zoom.csv: 0.12184069523232144
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.27245450248536623. 95% threshold:0.46856246408969005
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_12zoom.csv: 0.24080955803056514
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.03801289253344238. 95% threshold:-0.0037624194367036
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_13zoom.csv: 0.030399175523519697
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.0025599642320628477. 95% threshold:0.04754717221568962
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_14zoom.csv: 0.24151203168413712
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.165388170991321. 95% threshold:0.31491111120794213
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_15zoom.csv: 0.2279025647854247
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.1294005319170999. 95% threshold:0.2252722034691138
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_16zoom.csv: 0.35942775812595
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.1268766480810113. 95% threshold:0.28525688721676445
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00266002_17zoom.csv: 0.1754208648593171
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.14698115338999956. 95% threshold:0.34828859921476374
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202201_18zoom.csv: 0.19187496487209246
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.10693481701516305. 95% threshold:0.3319952523506178
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202201_19zoom.csv: 0.22201860402541412
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.2760688800279888. 95% threshold:0.49572430182008664
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202201_20zoom.csv: 0.4836934640154983
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.28511972534321295. 95% threshold:0.4897573691866163
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202201_21zoom.csv: 0.11088853308268426
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.07156970950958606. 95% threshold:0.14948393814472205
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202201_22zoom.csv: 0.22109194650962258
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.2757854159049467. 95% threshold:0.4485530094688379
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00471302_23zoom.csv: 0.3509383252548396
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.30953794693377257. 95% threshold:0.4867411122248155
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00471302_24zoom.csv: 0.3905041516068807
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.1811470129010068. 95% threshold:0.3800567727257518
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00471302_25zoom.csv: 0.05346704101970614
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.053361781476927474. 95% threshold:-0.0018682663420938814
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00471302_26zoom.csv: 0.0703802941815252
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.3471616227549133. 95% threshold:0.6371300042872724
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00325703_27zoom.csv: 0.5894554655299243
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.046959948355239506. 95% threshold:0.261959099507533
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00325703_28zoom.csv: 0.4112433898239019
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.012297616755702265. 95% threshold:0.24241722596380086
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_29zoom.csv: 0.5022960917719885
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.37510394254737534. 95% threshold:0.5256821246105516
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00429802_30zoom.csv: 0.129099736838875
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.062430385558649916. 95% threshold:-0.03606926651644901
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202501_31zoom.csv: 0.23896120549697494
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.1736855165377597. 95% threshold:0.34871167434303185
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202501_32zoom.csv: 0.12912232594824935
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.01626936105193065. 95% threshold:0.018820039434268458
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202501_33zoom.csv: 0.14521351077887928
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:-0.004771758350456497. 95% threshold:0.06258423857117248
+XC of korolev2/S_04051801_2zoom.csv and NPLD/S_00202501_34zoom.csv: 0.7307719333821275
+Avg XC of korolev2/S_04051801_2zoom.csv and 1000 random profiles:0.22526005189526074. 95% threshold:0.44238002653326813
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_01zoom.csv: 0.325263848066125
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.06558728231971196. 95% threshold:0.0006825575323886474
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_02zoom.csv: 0.3725922769263077
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.03869715740624291. 95% threshold:0.41409832847345635
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_03zoom.csv: 0.633816012130604
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.39998589855093303. 95% threshold:0.8465959470112491
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_04zoom.csv: 0.6138561713572782
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.1593608351227821. 95% threshold:0.49369183275180345
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00325703_05zoom.csv: 0.33750416848989545
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.29327658897281206. 95% threshold:0.6854712515924399
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00325703_06zoom.csv: 0.43403474755442567
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.11670589666510975. 95% threshold:0.6721572721068225
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00325703_07zoom.csv: 0.39492029375101284
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.060470854596111505. 95% threshold:0.6189681208674715
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00480901_08zoom.csv: 0.7821472485651881
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.8044189405761925. 95% threshold:0.9100549341260397
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00480901_09zoom.csv: 0.31544218804720686
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.15819709162861703. 95% threshold:0.5178429848120276
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00480901_10zoom.csv: 0.5900887372273703
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.30786305172240724. 95% threshold:0.9580064881294581
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_11zoom.csv: 0.4875326948080665
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.3947953805135829. 95% threshold:0.8848179750503267
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_12zoom.csv: 0.24180496768465137
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.06380922607780348. 95% threshold:-0.027491426115348383
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_13zoom.csv: 0.24699388951066947
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.04105667741280494. 95% threshold:-0.02756807427492066
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_14zoom.csv: 0.3912356650866058
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.15030655475961766. 95% threshold:0.5576708686337187
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_15zoom.csv: 0.7107136250260446
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.3268425726912079. 95% threshold:0.9158330258578644
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_16zoom.csv: 0.19179232845953334
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.13429170459375928. 95% threshold:0.5868171399931226
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00266002_17zoom.csv: 0.4614842452701942
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.13976317073099967. 95% threshold:0.6508712866074426
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202201_18zoom.csv: 0.6622735383082707
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.12862194556780462. 95% threshold:0.6089723981141119
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202201_19zoom.csv: 0.6590963604925758
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.40280420664321814. 95% threshold:0.8651035338143527
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202201_20zoom.csv: 0.6365565101787165
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.7482050934338734. 95% threshold:0.9777335140598414
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202201_21zoom.csv: 0.2494514885332165
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.0238835863113237. 95% threshold:0.09549927559833978
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202201_22zoom.csv: 0.8053263707531839
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.28349754969802105. 95% threshold:0.7240777831149986
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00471302_23zoom.csv: 0.6938451640958578
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.4673206677122626. 95% threshold:0.8874220735366366
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00471302_24zoom.csv: 0.3942561757756417
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.2155523937811159. 95% threshold:0.7063690368909404
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00471302_25zoom.csv: 0.058852327875091225
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.09573335003446926. 95% threshold:-0.01751162223957177
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00471302_26zoom.csv: 0.2817598649765091
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.053644335946520114. 95% threshold:0.2686672816812781
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00325703_27zoom.csv: 0.6581850104822126
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.022306240077358864. 95% threshold:0.6070005381370692
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00325703_28zoom.csv: 0.45259461396668116
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.011969097334790664. 95% threshold:0.5361004696913976
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_29zoom.csv: 0.7648275920550035
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.8278659218288265. 95% threshold:0.9629335726632839
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00429802_30zoom.csv: 0.38637067893117694
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.14818003811759842. 95% threshold:-0.11100961839458423
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202501_31zoom.csv: 0.5928135312244456
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.1883543841394359. 95% threshold:0.6014762862160024
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202501_32zoom.csv: 0.3311835778554751
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.0885137017899163. 95% threshold:-0.035557104793439355
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202501_33zoom.csv: 0.2617812108505819
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:-0.03558813497918074. 95% threshold:0.049721021127246794
+XC of korolev2/S_00554201_3zoom.csv and NPLD/S_00202501_34zoom.csv: 0.6853535267830674
+Avg XC of korolev2/S_00554201_3zoom.csv and 1000 random profiles:0.32725040515097703. 95% threshold:0.8413985034490113
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_01zoom.csv: 0.23518164750777798
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.024061331187221383. 95% threshold:0.04175323177528034
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_02zoom.csv: 0.30188839627709324
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.07543681442158101. 95% threshold:0.2147796326416045
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_03zoom.csv: 0.5012663672295108
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.2043078570733657. 95% threshold:0.40795355678500156
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_04zoom.csv: 0.46198657661669534
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.11332371614584237. 95% threshold:0.24522169555922235
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00325703_05zoom.csv: 0.4634369737665277
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.2237440294671925. 95% threshold:0.37428754223627725
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00325703_06zoom.csv: 0.221769005955186
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.047914378748195006. 95% threshold:0.2500956506461496
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00325703_07zoom.csv: 0.25058127141033076
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.02747217797119224. 95% threshold:0.24592952900976586
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00480901_08zoom.csv: 0.5660172275892458
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.5118132744891636. 95% threshold:0.9034553961330843
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00480901_09zoom.csv: 0.2551087783184722
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.10235288658544649. 95% threshold:0.19175323813871353
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00480901_10zoom.csv: 0.5702981921899958
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.13712996664645083. 95% threshold:0.21741229800590572
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_11zoom.csv: 0.16995760727768042
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.2015877822018453. 95% threshold:0.342023488562088
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_12zoom.csv: 0.2545213604572668
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.04113686116059137. 95% threshold:-0.0006991488562867465
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_13zoom.csv: 0.18904145121054117
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.013566125485464046. 95% threshold:0.028333598017385952
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_14zoom.csv: 0.3664113102751968
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.1077303982063207. 95% threshold:0.23131271552617244
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_15zoom.csv: 0.08590518280537218
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.07285899528050394. 95% threshold:0.14736284426867208
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_16zoom.csv: 0.030689674990744514
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.06689921030988655. 95% threshold:0.19509388053181614
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00266002_17zoom.csv: 0.2640627247291042
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.09557705699819218. 95% threshold:0.29709853655456453
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202201_18zoom.csv: 0.5462843939908322
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.08061249458298832. 95% threshold:0.3148477813417844
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202201_19zoom.csv: 0.5853877478794208
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.22368677842650372. 95% threshold:0.4512830062986908
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202201_20zoom.csv: 0.6650628533795796
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.4633452988187213. 95% threshold:0.6746499961725692
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202201_21zoom.csv: 0.1887775165401751
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.024457911005007566. 95% threshold:0.08523545379085848
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202201_22zoom.csv: 0.4447171707361652
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.2123169122394827. 95% threshold:0.3818712030446695
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00471302_23zoom.csv: 0.6174478141276328
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.28729073856934506. 95% threshold:0.4973573504994152
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00471302_24zoom.csv: 0.4589140624346544
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.1363392858489058. 95% threshold:0.3468007557148602
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00471302_25zoom.csv: 0.12988114467967535
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.040942329890620875. 95% threshold:0.011937431188422984
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00471302_26zoom.csv: 0.2576150951964495
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.27018617224407254. 95% threshold:0.5345828497730238
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00325703_27zoom.csv: 0.32733338464300976
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.01878456196378036. 95% threshold:0.19169208054840214
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00325703_28zoom.csv: 0.26761858451182263
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.0483332875583387. 95% threshold:0.18125101953507433
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_29zoom.csv: 0.6222113752074427
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.5364237323317536. 95% threshold:0.6582052256305816
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00429802_30zoom.csv: 0.1845303776652422
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.04643771150418948. 95% threshold:0.07230888461333787
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202501_31zoom.csv: 0.445406866489575
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.13415807577800232. 95% threshold:0.30255262106287584
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202501_32zoom.csv: 0.21721167151192428
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.023988137747751617. 95% threshold:0.008147170430950035
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202501_33zoom.csv: 0.24599496812756755
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:-0.014392206788056033. 95% threshold:0.048288526707441264
+XC of korolev2/S_00883101_4zoom.csv and NPLD/S_00202501_34zoom.csv: 0.5348173434193186
+Avg XC of korolev2/S_00883101_4zoom.csv and 1000 random profiles:0.16191101465373725. 95% threshold:0.37628951520331416
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_01zoom.csv: 0.5185353261824545
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.45346824138130637. 95% threshold:0.5310498764447187
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_02zoom.csv: 0.14111250842855969
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2819514571498089. 95% threshold:0.4353486062832175
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_03zoom.csv: 0.013455181597490167
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.3003570036966399. 95% threshold:0.4937961801014048
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_04zoom.csv: 0.40348088259715076
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.28289488771428856. 95% threshold:0.4547763263094561
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00325703_05zoom.csv: 0.3075794312127739
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.4657201294958531. 95% threshold:0.590149216007475
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00325703_06zoom.csv: 0.22107257993695717
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.27716052816004344. 95% threshold:0.49583003799073877
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00325703_07zoom.csv: 0.4242799210576213
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2458707940609331. 95% threshold:0.48257753786092733
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00480901_08zoom.csv: 0.09283838574523544
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.11142484815542548. 95% threshold:0.3621068128546031
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00480901_09zoom.csv: 0.10679784098284166
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.23829868221944892. 95% threshold:0.3410439067401108
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00480901_10zoom.csv: 0.0926421585969458
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2794412989711762. 95% threshold:0.39457378583534797
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_11zoom.csv: 0.3204869574702826
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.3492303349461807. 95% threshold:0.4864969301770835
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_12zoom.csv: 0.5029363168713666
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2674949214584705. 95% threshold:0.404476666695613
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_13zoom.csv: 0.15079669727478098
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.35273302735572437. 95% threshold:0.539459749699715
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_14zoom.csv: 0.13944188403392566
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2730555128652861. 95% threshold:0.4026874962319239
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_15zoom.csv: 0.24177892499764134
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.179217773450812. 95% threshold:0.3361055027561184
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_16zoom.csv: 0.35046992518047937
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.1339277776303069. 95% threshold:0.30388317224039463
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00266002_17zoom.csv: 0.2848899494013213
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.25029572344425366. 95% threshold:0.44961196948727983
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202201_18zoom.csv: 0.03164849222013615
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.2607154001106264. 95% threshold:0.531021494047947
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202201_19zoom.csv: 0.2152991873081231
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.3231730388923446. 95% threshold:0.48428782253349567
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202201_20zoom.csv: 0.16881964616092537
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.030447958113366213. 95% threshold:0.27472733567269575
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202201_21zoom.csv: 0.6313061719943093
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.3017300052141741. 95% threshold:0.48048614133581624
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202201_22zoom.csv: 0.10522095581283201
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.44434244454376504. 95% threshold:0.5451750750661385
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00471302_23zoom.csv: 0.1464110133383881
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.32313030180990626. 95% threshold:0.4977757659764309
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00471302_24zoom.csv: 0.2783109140315784
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.27314471667157586. 95% threshold:0.4589679275963423
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00471302_25zoom.csv: 0.2867715616423043
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.22535306963887275. 95% threshold:0.3512070531652931
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00471302_26zoom.csv: 0.01593463173367417
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.3158743529706931. 95% threshold:0.5247305007940899
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00325703_27zoom.csv: 0.01598017598936858
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.19511651937314525. 95% threshold:0.40272736581207336
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00325703_28zoom.csv: 0.41040561249544405
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.11709482531633301. 95% threshold:0.3709157824776463
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_29zoom.csv: 0.2626501802733736
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:-0.004743733139941118. 95% threshold:0.2345093126790562
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00429802_30zoom.csv: -0.02566541667078391
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:-0.07938927971355804. 95% threshold:-0.041971312191119534
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202501_31zoom.csv: -0.026000852010375136
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.26249864827459685. 95% threshold:0.42952321838422713
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202501_32zoom.csv: 0.09361521256965255
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.09947940134066319. 95% threshold:0.23787902749887543
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202501_33zoom.csv: 0.2465690526622222
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.263014902568032. 95% threshold:0.5485186039901293
+XC of korolev2/S_01690101_5zoom.csv and NPLD/S_00202501_34zoom.csv: -0.026524805878370104
+Avg XC of korolev2/S_01690101_5zoom.csv and 1000 random profiles:0.30243791752298044. 95% threshold:0.4981377521987862
