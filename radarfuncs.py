@@ -82,8 +82,30 @@ def ar1(x,y,fit):
 
     #make variance(m)=variance(y) and mean(m)=mean(y)
     m = mu + (m - np.mean(m))*(sigma/np.std(m))
+    
+    return m
 
+def ar1_nogauss(x,y):
+    ### produces an AR1 (markov) series with the same length and lag-1
+    ### autocorrelation as y
+    ### returns m, the AR1 time series
+    
+    lag1 = sm.tsa.acf(y, nlags=1,fft=True)[1]
+    
+    mu = np.mean(y)
 
-   
+    sigma = np.std(y)
+
+    errors = np.random.randn(len(y))
+    errors = np.square(errors) # negative values don't make sense
+    #errors = errors * fit # fit errors to best fit skewed gaussian of data
+    
+    m = [0]*len(y)
+
+    for i in range(1,len(m)):
+        m[i]=lag1*m[i-1]+errors[i]
+
+    #make variance(m)=variance(y) and mean(m)=mean(y)
+    m = mu + (m - np.mean(m))*(sigma/np.std(m))
     
     return m
