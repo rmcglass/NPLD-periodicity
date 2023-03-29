@@ -39,7 +39,8 @@ def dtw_mars(y,x):
     y = np.array(y)
     
     # g sets punishment multiplier for going off diagonal in the cost matrix
-    g = 1.2
+    #g = 1.2
+    g = 1.0
     
     #compute d, a matrix of the squared differences between every value of x and y
     d = np.zeros((N,M))

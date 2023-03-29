@@ -19,10 +19,10 @@ from DTWfuncs import *
 from lmfit.models import SkewedGaussianModel
 import sys
 
-# Each sbatch job will run DTW for 2 sims and 34 real profiles
+# Each sbatch job will run DTW for 1 sim and 34 real profiles
 
 startsim =int(sys.argv[1])
-sims2run = [startsim, startsim+1]
+sims2run = [startsim]
 
 ## Import csv files -- Simulations
 csv_import = glob.glob("../data/DanSims1/signal_tot.csv")

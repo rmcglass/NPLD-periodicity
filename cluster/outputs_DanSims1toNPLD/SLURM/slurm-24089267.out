@@ -1,0 +1,2 @@
+/var/spool/slurm/job24089267/slurm_script: line 14: 104470 Killed                  python DTW_Sims1ToReal.py $1 $2
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=24089267.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
