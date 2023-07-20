@@ -20,7 +20,7 @@ This repository contains everything, from the input data to the output files, ne
 radarfuncs.py: Holds three functions used for FFT and DTW analysis. 
 - p2m_waterice converts depth in SHARAD pixels to depth in meters assuming a dielectric constant of water ice.
 - fft_radar computes the wavelength power spectra of a radar depth profile
-- ar1 produces and AR1 (Markov) series with the same length and lag-1 autocorrelation as the input depth profile, and fit to the same best fit skewed gaussian.
+- ar1 produces an AR1 (Markov) series with the same length and lag-1 autocorrelation as the input depth profile, and fit to the same best fit skewed gaussian.
 
 DTWfuncs.py: Holds 2 functions for running dynamic time warping algorithm
 - normPH demeans and normalizes a given input function to unit std.
@@ -31,8 +31,10 @@ NPLDFFTradar_many-nosurface.ipynb and korolevFFTradar_many-nosurface.ipynb: Comp
 
 DynamicTimeWarping_KtoK.ipynb and DynamicTimeWarping_KtoNPLD.ipynb: Tunes depth profiles of Korolev to each other and Korolev to the NPLD, using a dynamic time warping algorithm. Plots these tunings and computes cross correlations. For each tuning, this also tunes 1000 randomly generated depth profiles to assess the goodness of fit.
 
-#### Output files
+#### Output files:
 FFTplots: Holds plots of depth profiles, example random synthetic profile, and wavelength spectra for each data site.
 KKplots: Holds output plots from tuning each of the 5 Korolev sites to each other
 KNplots: Holds output plots from tuning each NPLD site to each Korolev site
 
+#### ./cluster folder:
+./cluster holds a verison of this code that was split up for parallel use on Purdue's Bell computing cluster.
