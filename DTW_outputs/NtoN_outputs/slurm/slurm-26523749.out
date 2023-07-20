@@ -1,0 +1,2 @@
+/var/spool/slurm/job26523749/slurm_script: line 14: 63525 Killed                  python DTW_NPLDtoNPLD.py $1 $2
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=26523749.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

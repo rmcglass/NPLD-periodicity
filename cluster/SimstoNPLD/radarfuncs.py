@@ -1,0 +1,111 @@
+import numpy as np
+from scipy.fftpack import fft
+import statsmodels.api as sm
+
+def p2m_waterice(x):
+    ### For a radar depth profile with x = list of depths in pixels and y = list of radar power
+    ### Takes in x
+    ### Converts pixels to depth in meters
+    ### returns x_m, now in meters
+    ### Assumes dielectric of 3.15 for water ice
+    x = np.array(x)
+    x = x.astype(np.float)
+    
+    #convert pixels to meters
+    c = 300000000
+    pix_t = .0000000375
+    er = 0.56343616981 # 1/sqrt(3.15) (dielectric = 3.15 for water ice)
+    depthh = c*pix_t*er*len(x)*.5 
+    x_m = (x-x[0])*c*pix_t*er*.5
+    
+    return x_m
+
+
+
+def fft_radar(depth,values):
+    ### takes two nx1 matrices, depth and values
+    ### returns (w, P1), a tuple of nx1 matrices where w is the wavelength 
+    ### and P1 is the corresponding single sided spectrum of the fft
+    ### use: w, P1 = fft_radar(depth,values)
+    
+    #adapted from Mike Sori's matlab code
+    X = depth #in m
+    Y = values
+    #depth and values must be the same length, and length must be an even number
+    if len(X) != len(Y):
+        raise Exception("depth and values must be the same length")     
+    if len(X) % 2 != 0:
+        X.pop()
+        Y.pop()
+
+    #Fs = len(Y)/deptht #sampling rate (s).  
+    Fs = len(Y)/(X[-1]-X[0]) #sampling rate (m).
+    T = 1/Fs
+    L = len(X)
+    t = np.arange(L)*T 
+
+    #take fft, compute the two-sided spectrum P2. 
+    #Then compute the single-sided spectrum P1 based on P2 and the even-valued signal length L
+    ffty = fft(Y)
+    P2 = np.abs(ffty/L)
+    P1 = P2[0:np.int(np.floor(L/2))]
+    P1[1:len(P1)-1]=2*P1[1:len(P1)-1]
+
+    #frequency
+    f = Fs*np.arange(0,(L/2))/L
+    #convert to wavelength
+    np.seterr(divide='ignore')
+    w = 1/f
+    
+    return w,P1
+
+
+def ar1(x,y,fit):
+    ### produces an AR1 (markov) series with the same length and lag-1
+    ### autocorrelation as y, and fit to a similar trend line
+    ### returns m, the AR1 time series
+    
+    lag1 = sm.tsa.acf(y, nlags=1,fft=True)[1]
+    
+    mu = np.mean(y)
+
+    sigma = np.std(y)
+
+    errors = np.random.randn(len(y))
+    errors = np.square(errors) # negative values don't make sense
+    errors = errors * fit # fit errors to best fit skewed gaussian of data
+    
+    m = [0]*len(y)
+
+    for i in range(1,len(m)):
+        m[i]=lag1*m[i-1]+errors[i]
+
+    #make variance(m)=variance(y) and mean(m)=mean(y)
+    m = mu + (m - np.mean(m))*(sigma/np.std(m))
+    
+    return m
+
+def ar1_nogauss(x,y):
+    ### produces an AR1 (markov) series with the same length and lag-1
+    ### autocorrelation as y
+    ### returns m, the AR1 time series
+    
+    lag1 = sm.tsa.acf(y, nlags=1,fft=True)[1]
+    
+    mu = np.mean(y)
+
+    sigma = np.std(y)
+
+    errors = np.random.randn(len(y))
+    errors = np.square(errors) # negative values don't make sense
+    #errors = errors * fit # fit errors to best fit skewed gaussian of data
+    
+    m = [0]*len(y)
+
+    for i in range(1,len(m)):
+        m[i]=lag1*m[i-1]+errors[i]
+
+    #make variance(m)=variance(y) and mean(m)=mean(y)
+    m = mu + (m - np.mean(m))*(sigma/np.std(m))
+    
+    return m

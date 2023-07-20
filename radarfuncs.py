@@ -4,7 +4,7 @@ import statsmodels.api as sm
 
 def p2m_waterice(x):
     ### For a radar depth profile with x = list of depths in pixels and y = list of radar power
-    ### Takes in x
+    ### Takes in x (where x[0] is the surface)
     ### Converts pixels to depth in meters
     ### returns x_m, now in meters
     ### Assumes dielectric of 3.15 for water ice

@@ -39,8 +39,8 @@ def dtw_mars(y,x):
     y = np.array(y)
     
     # g sets punishment multiplier for going off diagonal in the cost matrix
-    #g = 1.2
-    g = 1.0
+    g = 1.2
+    # g = 1.0
     
     #compute d, a matrix of the squared differences between every value of x and y
     d = np.zeros((N,M))
@@ -52,16 +52,12 @@ def dtw_mars(y,x):
     # but we don't know if the bottoms are the same, then we will set the last row and column to be zeros. 
     # That way, it allows for the best path to end before (N,M) if necessary.  
     
-#     zero_col = np.zeros((d.shape[0], 1))  # zeros column as 2D array
-#     d = np.hstack((d, zero_col))
-#     zero_row = np.zeros((1,d.shape[1]))
-#     d = np.vstack((d, zero_row))
-    
     N = d.shape[0]
     M = d.shape[1]
     
     d[-1,:]=0
     d[:,-1]=0
+    
     #COMPUTE COST MATRIX, D
     
     # We want to know the path from element (0,0) to element (N,M) that involves

@@ -1,0 +1,6 @@
+XC of ../../data/NPLD/S_00266002_15zoom.csv and ../../data/NPLD/S_00202501_34zoom.csv: 0.24024659939300466
+Avg XC of ../../data/NPLD/S_00266002_15zoom.csv and 1000 random profiles:0.4965357430557754. 95% threshold:0.6470157828604177
+Traceback (most recent call last):
+  File "DTW_NPLDtoNPLD.py", line 119, in <module>
+    prof2 = csv_import[j]
+IndexError: list index out of range
