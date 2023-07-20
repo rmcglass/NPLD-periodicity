@@ -14,7 +14,7 @@ Depth profile sites for NPLD and Korolev crater.
 This repository contains everything, from the input data to the output files, needed to run this analysis.
 
 #### Input data:
-./data holds the .csv files that hold the depth profile data from the SHARAD radargrams extracted at the points on the maps aboce, sorted into NPLD and Korolev. Korolev and Korolev 2 are the same profiles, but Korolev2 is a slightly more zoomed version that I was experimenting with, and think is more accurate for the DTW algorithm.
+./data holds the .csv files that hold the depth profile data from the SHARAD radargrams extracted at the points on the maps above, sorted into NPLD and Korolev. Korolev and Korolev 2 are the same profiles, but Korolev2 is a slightly more zoomed version that I was experimenting with, and think is more accurate for the DTW algorithm. The folder DanSims1 contains the simulated waveforms constructed from modeled ice and dust stratigraphies.
 
 #### Python Function Files:
 radarfuncs.py: Holds three functions used for FFT and DTW analysis. 
