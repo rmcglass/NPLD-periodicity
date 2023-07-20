@@ -1,7 +1,7 @@
 Test Simulations Batch 1
 sent by Dan Lalich on 9/7/2022
 
-**signal_tot.txt**: a csv file containing the simulated waveforms (each column is one simulation). I truncated them so that they begin ~25 samples before the surface reflection and are 600 samples long total. If you would prefer I could just give you the full 3600 sample waveform in the future but this helps keep file size down.
+**signal_tot.txt**: a csv file containing the simulated waveforms (each column is one simulation). I truncated them so that they begin ~25 samples before the surface reflection and are 600 samples long total. 
 
 **eps_tot.txt**: csv file containing the dielectric profile used as input for each simulation.
 
