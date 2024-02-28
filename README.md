@@ -33,7 +33,7 @@ DynamicTimeWarping_KtoK.ipynb, DynamicTimeWarping_KtoNPLD.ipynb, and DynamicTime
 
 #### Output files:
 FFTplots: Holds plots of depth profiles, example random synthetic profile, and wavelength spectra for each data site.
-DTW_outputs: Holds output plots from DTW tunings of Korolev to Korolev (KtoK_outputs), Korolev to NPLD (KtoNPLD_outputs), NPLD to Korolev (NPLDtoK_outputs), simulated stratigraphies to NPLD (Sims1toNPLD_outputs), NPLD to simulated stratigraphies (NPLDtoSims1_outputs), and NPLD to NPLD (NtoN_outputs).
+DTW_outputs: Holds output plots from DTW tunings of Korolev to Korolev (KtoK_outputs), Korolev to NPLD (KtoNPLD_outputs), NPLD to Korolev (NPLDtoK_outputs), NPLD to simulated stratigraphies (NPLDtoSims1_outputs), and NPLD to NPLD (NtoN_outputs).
 
 #### cluster folder:
 ./cluster holds verisons of this code that were split up for parallel model runs on Purdue's Bell computing cluster.
